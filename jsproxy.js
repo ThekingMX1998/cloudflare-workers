@@ -3,7 +3,7 @@
 /**
  * static files (404.html, sw.js, conf.js)
  */
-const ASSET_URL = 'https://cdn.free-network.ga'
+const ASSET_URL = 'https://etherdream.github.io/jsproxy'
 
 const JS_VER = 10
 const MAX_RETRY = 1
