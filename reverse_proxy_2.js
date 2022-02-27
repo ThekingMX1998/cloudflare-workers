@@ -1,8 +1,8 @@
 // 替换成你想镜像的站点
-const upstream = 'google.com'
+const upstream = 'example.com'
  
 // 如果那个站点有专门的移动适配站点，否则保持和上面一致
-const upstream_mobile = 'm.google.com'
+const upstream_mobile = 'example.com'
  
 // 密码访问
  
@@ -11,7 +11,7 @@ const username = 'username'
 const password = 'password'
  
 // 你希望禁止哪些国家访问
-const blocked_region = ['RU']
+const blocked_region = ['CN']
  
 // 禁止自访问
 const blocked_ip_address = ['0.0.0.0', '127.0.0.1']
@@ -19,7 +19,7 @@ const blocked_ip_address = ['0.0.0.0', '127.0.0.1']
 // 替换成你想镜像的站点
 const replace_dict = {
     '$upstream': '$custom_domain',
-    '//google.com': ''
+    '//example.com': ''
 }
  
 function unauthorized() {
